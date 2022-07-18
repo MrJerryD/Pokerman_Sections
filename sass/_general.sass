@@ -1,0 +1,439 @@
+header
+  position: relative
+
+nav
+  height: 50.73px
+  background: #212121
+  position: static
+  position: fixed
+  width: 100%
+  height: 50px
+  background-color: #212121
+  z-index: 2
+
+.menu
+  display: flex
+  justify-content: space-between
+  padding: 13px 70px
+  margin: 0
+  list-style-type: none
+  &_link
+    font-weight: 300
+    font-size: 15px
+    color: #FFFFFF
+    text-decoration: none;
+  &_item
+    border-right: 2px dotted greenyellow
+    padding-right: 60px
+    &:last-child
+      border-right: none
+
+.subheader
+  height: 87px
+  background: rgba(125, 94, 94, 0.6)
+  /* вместо capacity 0.6 это просзрачность
+  position: absolute
+  width: 100%
+  top: 50px
+  &_logo
+    display: block
+    max-width: 100%
+    margin-top: 16px
+  &_official
+    margin-top: 6px
+    font-size: 13px
+    color: #ffffff
+    opacity: 0.7
+  &_call
+    font-size: 12px
+    color: #FFFFFF
+    margin-top: 20px
+    text-align: right
+  &_phone
+    display: block
+    font-size: 22px
+    text-transform: uppercase
+    color: #FFFFFF
+    text-align: right
+    text-decoration: none
+  &_btn
+    margin-top: 20px
+    width: 172px
+    height: 46px
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
+    border-radius: 10px
+    border: none
+    text-transform: uppercase
+    color: #FFFFFF
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3)
+    +btn_hover
+
+.promo
+  min-height: 700px
+  background: url('../img/bg/pacman1.png') center (center / cover) no-repeat
+  padding: 220px 0 186px 0
+  &_header
+    font-weight: 700
+    font-size: 60px
+    text-transform: uppercase
+    color: #FFFFFF
+    line-height: 60px
+    margin: 0
+    text-align: center
+  &_subheader
+    font-weight: 700
+    font-size: 36px
+    text-transform: uppercase
+    color: #FFFFFF
+    line-height: 36px
+    margin: 0
+    margin-top: 22px
+    text-align: center
+  &_descr
+    font-weight: 400
+    font-size: 18px
+    text-align: center
+    color: #FFFFFF
+    margin-top: 16px
+  &_btn
+    display: block
+    margin: 116px auto 120px auto
+    width: 259px
+    height: 63px
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12)
+    border-radius: 4px
+    color: #FFFFFF
+    border: none
+    border-radius: 10px
+    font-size: 18px
+    text-align: center
+    text-transform: uppercase
+    +btn_hover
+
+.label
+  margin: 0 auto
+  height: 24px
+  width: 112px
+  padding: 5px 12px
+  background-color: #000000
+  color: #ffffff
+  font-size: 11px
+  font-weight: 300
+  text-transform: uppercase
+  text-align: center
+  &_white 
+		color: #fff
+
+.title
+  margin-bottom: 0
+  margin-top: 38px
+  color: #222222
+  font-size: 38px
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+.reasons
+  padding: 71px 0 65px 0
+  background: yellow
+  &_block
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-top: 35px
+  &_round
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-right: 26px
+    width: 113px
+    height: 113px
+    background-color: #1eacc7
+    border-radius: 100%
+  &_descr
+    width: 343px
+  &_subtitle
+      line-height: 21px
+      color: red
+      font-size: 17px
+      font-weight: 400
+  &_text
+      color: green
+      font-size: 15px
+      font-weight: 300
+      line-height: 21px
+
+.subtitle
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  color: #222222;
+  
+
+.mobile
+  min-height: 864px
+  padding: 48px 0 89px 0
+  background: url('../img/bg/mobile_bg.png') center (center / cover) no-repeat
+  .row
+    margin-top: 32px
+
+  &_item
+    position: relative
+    width: 320px;
+    height: 280px;
+    opacity: 0.9
+    margin: 0 auto
+    margin-bottom: 19px
+    padding-top: 92px
+    &_1
+      background: url('../img/bg/pacman2.webp') center (center / cover) no-repeat
+    &_2
+      background: url('../img/bg/pacman2.webp') center (center / cover) no-repeat
+    &_3
+      background: url('../img/bg/pacman2.webp') center (center / cover) no-repeat
+    &_4
+      background: url('../img/bg/pacman2.webp') center (center / cover) no-repeat
+    &_5
+      background: url('../img/bg/pacman2.webp') center (center / cover) no-repeat
+    &_6
+      background: url('../img/bg/pacman2.webp') center (center / cover) no-repeat
+    &_subtitle
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 31px
+      text-align: center;
+      text-transform: uppercase;
+      color: red; 
+    &_plus
+      position: absolute
+      bottom: 40px
+      left: 50%
+      transform: translateX(-50%)
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 29px;
+      height: 29px;
+      background: #000000;
+      margin: 0 auto
+      border-radius: 100%
+      padding: 8px
+      cursor: pointer
+      &::before /* плюсы делаем */
+        content: ''
+        position: absolute
+        display: block
+        width: 14px
+        height: 2px
+        background-color: $main-color
+      &::after
+        content: ''
+        display: block
+        height: 14px
+        width: 2px
+        background-color: $second-color
+        transition: 0.5s
+      &:hover
+        &::before, &::after
+          background-color: green
+
+.choice 
+  position: relative
+  min-height: 895px
+  padding: 57px 0 138px 0
+  background: url("../img/bg/pacman3.png")
+  .label_white
+    position: relative
+    margin: 0 auto
+    height: 24px
+    width: 112px
+    padding: 5px 12px
+    background-color: #FFFFFF
+    color: #070716
+    font-size: 11px
+    font-weight: 400
+    text-transform: uppercase
+    text-align: center
+  .title
+    position: relative
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  .subtitle_white
+    position: relative
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+  &_img 
+    position: relative
+    display: block
+    margin: 56px auto 0 auto
+    z-index: 1
+  &_descr 
+    text-align: center
+    color: #222222
+    font-size: 17px
+    font-weight: 300
+    line-height: 24px
+  .black 
+    position: absolute 
+    background-color: red
+    top: 0
+    left: 0
+    height: 499px
+    width: 100%
+    z-index: 0
+
+.require
+	padding: 68px 0 84px 0
+	&_block 
+		margin: 33px 0
+		&_nmb
+			margin-bottom: 0px
+	&_title 
+		color: #1ca8c3
+		font-size: 22px
+		font-weight: 400
+	&_list 
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 22px
+		li 
+			position: relative
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px
+			margin-bottom: 10px
+			&:before 
+				content: ''
+				display: block 
+				position: absolute
+				left: -32px
+				top: 3px
+				width: 21px 
+				height: 20px
+				background: url('../img/icons/check_blue.png') center (center / cover) no-repeat
+	&_descr 
+		margin-top: 25px
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px
+		color: #1ca8c3
+	.warning 
+		.require_title
+			color: $second-color
+		.require_list
+			li 
+				&:before
+					background: url('../img/icons/check_red.png') center (center / cover) no-repeat
+
+.world
+  position: relative
+  padding: 49px 0
+  min-height: 720px
+  background: url('../img/bg/world_bg.png') center no-repeat
+  background-color: #080816
+  .label_white
+  color: #FFFFFF
+  .title_white
+    position: relative
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  .subtitle_white
+    position: relative
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+  &_link
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    bottom: 40px
+    color: #1FBAD6;
+		font-size: 15px
+		font-weight: 400
+		line-height: 68px
+		text-transform: uppercase
+  .world_link:hover
+    text-decoration: none
+    color: white
+
+footer 
+	padding: 14px 23px 39px 23px
+	a 
+		&:hover 
+			text-decoration: none
+.footer
+	&_divider
+		width: 299px
+		height: 4px
+		background-color: #1fbad6
+		margin: 0 auto
+	&_wrapper
+		display: flex 
+		justify-content: space-between
+		align-items: flex-start
+		padding-top: 32px
+	&_wrapper > div 
+		width: 33%
+		&:nth-child(3)
+			display: flex 
+			justify-content: flex-end
+	&_social
+		width: 160px
+		display: flex
+		justify-content: space-between
+		&_item 
+			display: flex 
+			justify-content: center
+			align-items: center
+			margin: 0 4px 
+			width: 32px
+			height: 32px
+			background-color: #070716
+			border-radius: 100%
+			i 
+				color: #fff
+	&_links
+		width: 390px
+		margin: 0 auto
+		&_main 
+			display: flex 
+			justify-content: space-between
+			padding: 0 10px
+			a 
+				color: #070716
+				font-size: 15px
+				font-weight: 300
+				text-transform: uppercase
+		&_sub 
+			display: flex 
+			justify-content: space-between
+			margin-top: 10px
+			a 
+				color: #999999
+				font-size: 11px
+				font-weight: 300
+				text-transform: uppercase
+		&_lang 
+			display: block 
+			margin: 0 auto
+			color: #1fbad6
+			font-size: 11px
+			font-weight: 400
+			margin-top: 19px
+			text-transform: uppercase
+			text-align: center
+
